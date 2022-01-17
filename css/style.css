@@ -1,0 +1,263 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Secular One", sans-serif;
+  margin-top: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+/*--all box--*/
+.all-box {
+  width: 950px;
+  height: 700px;
+  margin: auto;
+  padding: 0 30px;
+  background-color: #ffffff70;
+  border-radius: 40px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*--left box--*/
+.left-box {
+  width: 350px;
+  height: 600px;
+
+  background-color: #ffffff80;
+  border-radius: 40px;
+}
+
+#clock {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+#weather {
+  font-size: 20px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.city {
+  font-size: 12px;
+  color: gray;
+}
+
+.picture {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff90;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 40px;
+}
+
+.me {
+  width: 280px;
+  height: 180px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/*-----right box -----*/
+.right-box {
+  width: 550px;
+  height: 600px;
+  background-color: #ffffff80;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*--top-box--*/
+.top-box {
+  width: 500px;
+  height: 100px;
+  background-color: #ffffff90;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-top: 40px;
+}
+.login-text {
+  border-bottom: 1px solid #ffffff90;
+}
+
+.login-text:hover {
+  transform: scale(1.1);
+  transition: ease-in 300ms;
+}
+
+.login-btn {
+  display: none;
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 12px;
+}
+
+#greeting {
+  font-size: 35px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+/*--middle-box--*/
+.middle-box {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paint {
+  width: 240px;
+  height: 300px;
+  background-color: #ffffff90;
+  border-radius: 40px;
+}
+
+.canvas {
+  background-color: white;
+  width: 200px;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.range {
+  margin-top: 5px;
+  transform: scale(0.5);
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  margin: auto;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.color::after {
+  transform: scale(0.98);
+}
+
+.todo {
+  width: 240px;
+  height: 300px;
+  background-color: #ffffff90;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-head {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.todo-text {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.now-date {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: gray;
+  font-style: oblique;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+#todo-list {
+  height: 170px;
+  width: 180px;
+  overflow-y: hidden;
+  margin: auto;
+  padding: 10px 0px 20px 10px;
+  color: rgb(53, 50, 50);
+}
+
+#todo-list:hover {
+  overflow-y: scroll;
+}
+
+#todo-list::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+  padding-right: 10px;
+}
+#todo-list::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+li > button {
+  background-color: transparent;
+  border: none;
+  color: grey;
+}
+li > button:hover {
+  transform: scale(1.1);
+  transition: ease-in 200ms;
+}
+.todo-input {
+  margin-top: 0;
+}
+
+/*--bottom-box--*/
+.bottom-box {
+  width: 500px;
+  height: 120px;
+  background-color: #ffffff90;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+#quote {
+  text-align: center;
+  color: #baabda;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Secular+One&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+<div class="all-box">
+    <div class="left-box">
+        <h2 id="clock"></h2>
+        <div id="weather">
+            <span class="weather-icon"></span>
+            <span class="temp"></span>
+            <span class="city"></span>
+        </div>
+        <div class="picture"><img class="me" src="img/프사.jpg"></div>
+        
+    </div>
+
+    <div class="right-box">
+        <div class="top-box">
+            <form id="login-form" class="hidden">
+                <input class="login-text" required maxlength="12" type="text" placeholder="What is your name?" />
+                <input class="login-btn" type="submit" value="Log In" />
+            </form>  
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div class="middle-box">
+        
+                <div class="paint">
+                    <canvas class="canvas"></canvas>
+                    <footer class="paint__footer">
+                        <input type="range" class="range" max="5.0" min="0.1" value="2.5" step="0.1"/>
+                        <div class="colors">
+                            <div class="color" style="background-color: black;"></div>
+                            <div class="color" style="background-color: white;"></div>
+                            <div class="color" style="background-color: #D77FA1;"></div>
+                            <div class="color" style="background-color: #BAABDA;"></div>
+                            <div class="color" style="background-color: #D6E5FA;"></div>
+                        </div>
+                    </footer>
+                </div>
+            <div class="todo">
+                <header class="todo-head">
+                    <div class="todo-text">TODAY</div>
+                    <div class="now-date"></div>
+                </header>  
+            <div class="line"></div>
+            <ul id="todo-list"> </ul> 
+            <form id="todo-form">
+                <input class="todo-input" type="text" placeholder="Write a To Do and Press Enter" required/>
+            </form>
+            
+            </div>
+    </div>
+        <div class="bottom-box">
+            <div id="quote">
+                <span></span><br><br>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+    
+    
+</div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/paint.js"></script>
+</body>
+</html>
